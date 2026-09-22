@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Java/Scala
+target/
+*.class
+.metals/
+.bloop/
+
+# Data/runtime
+data/raw/
+data/private/
+checkpoints/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
